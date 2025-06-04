@@ -1,0 +1,189 @@
+
+          
+             ul{
+            list-style-type: none;
+            background-color:cadetblue;
+            
+            
+
+        }
+        a{
+        text-decoration: none;
+        color: whitesmoke;
+    
+      
+      
+      
+    
+        
+        
+
+        }
+      
+        li{
+      
+         
+          display: inline-block;
+          padding: 30px;
+          font-weight: bolder;
+          font-style: italic;
+          text-transform: uppercase;
+          
+        }
+        li:hover{
+            background-color: darkblue;
+        }
+        li:active{
+            background-color: darkmagenta;
+        }
+     
+        a:hover{
+            background-color: black;
+        }
+        input{
+           padding: 20px;
+           border-radius: 20px;
+        }
+        img{
+            border: 7px solid gold;
+            margin-left: 40px;
+        }
+        div{
+            margin-left: 40px;
+            border-radius: 40px;
+            
+border: 1px solid;
+width: 80vh;
+padding: 40px;
+margin-bottom: 550px;
+margin-top: -479px;
+
+        }
+        
+        #eee{
+            background-color: gold;
+            width: 40vh;
+            margin-bottom: 10px;
+            border-radius: 40px;
+            padding: 8px;
+
+        }
+        #ttt{
+            background-color: orange;
+            width: 40vh;
+            border-radius: 40px;
+            padding: 8px;
+
+        }
+        select{
+            width: 40vh;
+            margin-bottom: 10px;
+            border-radius: 40px;
+            padding: 8px;
+font-weight: bolder;
+
+        }
+        h3{
+            color:orangered;
+        }
+        #gg{
+            color: black;
+            margin-left: 730px;
+            
+           
+     
+        }
+        h2{
+            margin-left: 730px;
+            
+
+        }
+        
+      
+        #two{
+            background-color: red;
+            border-radius: 4px;
+            padding: 10px;
+            color: white;
+        }
+        sub{
+            color: dodgerblue;
+           
+        }
+        h4{
+            margin-left: 730px;
+        }
+        #hh{
+            margin: 0;
+        }
+        #kkk{
+            background-color: steelblue;
+            padding: 40px;
+            text-transform: uppercase;
+            font-weight: bolder;
+        }
+        sup{
+            font-size: 30px;
+        }
+        #online{
+            font-size: small;
+        }
+        .menu{
+            position: fixed;
+        }
+       
+        /* Add this at the end of your existing CSS */
+@media (max-width: 768px) {
+    /* Header adjustments */
+    #kkk {
+        padding: 20px !important;
+        font-size: 1.5rem !important;
+    }
+    #online {
+        font-size: 0.7rem !important;
+    }
+
+    /* Navigation menu */
+    ul {
+        position: static !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        padding: 0 !important;
+    }
+    li {
+        display: block !important;
+        width: 100% !important;
+        text-align: center !important;
+        padding: 15px 0 !important;
+        border-bottom: 1px solid #fff !important;
+    }
+    input[type="search"] {
+        width: 90% !important;
+        margin: 10px auto !important;
+    }
+
+    /* Product layout */
+    #gg, h2, h4 {
+        margin-left: 0 !important;
+        text-align: center !important;
+        width: 100% !important;
+    }
+    div {
+        width: 90% !important;
+        margin: 20px auto !important;
+        padding: 20px !important;
+        position: static !important;
+    }
+    img {
+        width: 100% !important;
+        height: auto !important;
+        margin-left: 0 !important;
+    }
+
+    /* Buttons and form elements */
+    #eee, #ttt, select {
+        width: 100% !important;
+        margin: 10px 0 !important;
+    }
+}
